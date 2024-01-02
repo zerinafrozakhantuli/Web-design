@@ -1,0 +1,284 @@
+font-family: 'PT Sans', sans-serif;*/
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,span,div{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+}
+
+/*header css start*/
+
+header{
+	background-color:#fcdb00 ;
+	padding-top: 45px;
+}
+.h_title h1{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 20px;
+
+}
+.h_img{
+	padding-left: 56px;
+}
+
+.h_menu ul{
+	float: right;
+	padding-right: 22px;
+}
+.h_menu ul li{
+	float: left;
+}
+.h_menu ul li a{
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 70% 30px;
+	align-items: center;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+/*header css end*/
+/*.navbar-nav .nav-item .nav-link{
+	font-size: 22px;
+	font-weight: 700;
+
+
+}
+.navbar img{
+	padding-left: 60px;
+}
+.navbar-nav .nav-item .nav-link.middle{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.navbar .navbar-brand{
+	font-weight: 700;
+	font-size: 30px;
+	padding-left: 10px;
+}
+.navbar {
+	background-color: #fcdb00;
+}*/
+
+/*navbar css end*/
+
+/*banner part start*/
+
+#banner{
+	background-color: #fcdb00;
+}
+.banner_img{
+	padding-top: 74px;
+	padding-bottom: 104px;
+	padding-left: 173px;
+	padding-right: 273px;
+}
+
+.banner_content{
+  padding-left: 60px;	
+}
+
+.banner_content h4{
+	padding-top: 84px;
+	font-family:'PT Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+/*
+.banner_content p:first-child{
+ padding: 33px 0;
+ font-size: 20px;
+ text-align: justify;
+ font-family:'PT Sans', sans-serif;
+ font-weight: 400;
+
+}*/
+
+.banner_content h6{
+	/*padding-top: 20px;*/
+	/*padding-bottom:20px ;*/
+ font-size: 20px;
+ text-align: justify;
+ font-family:'PT Sans', sans-serif;
+ font-weight: 400;
+ /*line-height: 30px;*/
+
+
+}
+.banner_content p{
+ padding-bottom: 40px;
+ font-size: 16px;
+ /*text-align: justify;*/
+ font-family:'PT Sans', sans-serif;
+ font-weight: 400;
+ padding-top: 20px;
+ padding-right: 100px;
+
+}
+.banner_icon ul li{
+	float: left;
+	padding-left: 60px;
+	display:flex;
+	padding-bottom: 200px;
+	font-size: 42px;
+}
+.banner_icon ul li a{
+	color: black;
+}
+
+/*banner part end*/
+/*features part start*/
+.heading h4{
+	font-family:'PT Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 119px;
+
+}
+.heading p{
+	font-size: 20px;
+ font-family:'PT Sans', sans-serif;
+ font-weight: 400;
+ text-align: center;
+}
+.f_icon a{
+	color: black;
+	font-size: 38pt;
+
+}
+.f_icon{
+	margin-left: 60px;
+	margin-top: 82px;
+}
+.f_content{
+	margin-left: 35px;
+	margin-top: 95px;
+}
+
+.f_content h5{
+	font-family:'PT Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+
+}
+.f_content p{
+	font-family:'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 92px;
+	margin-top: 10px;
+}
+/*features part end*/
+/*footer part start*/
+ footer{
+ 	background-color: #010101;
+ }
+.f_heading h4{
+	color:#fcdb00 ;
+	font-family:'PT Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 94px;
+}
+.f_heading p{
+	font-size: 20px;
+ font-family:'PT Sans', sans-serif;
+ font-weight: 400;
+ text-align: center;
+ margin-top: 10px;
+ line-height: 15px;
+ color: #898989;
+}
+
+form input{
+	height: 50px;
+	width: 580px;
+	margin-top:46px ;
+	margin-bottom:77px ;
+	margin-left: 190px;
+	border-radius: 5px;
+	padding-left: 25px;
+	border: none;
+}
+ 
+ button{
+ 	height: 50px;
+ 	width:130px ;
+ 	margin-left:20px ;
+ 	border-radius: 5px;
+ 	background-color: #fcdb00;
+ 	border: none;
+ 	font-family:'PT Sans', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 16px;
+ }
+
+.foo_img ul{
+	text-align: center;
+
+}
+.middle1{
+	margin: 0 35px;
+}
+
+.middle2{
+	margin-right: 35px;
+}
+/*footer part end*/
+
+/*footermain part start*/
+.footermain{
+	background-color: black;
+
+}
+
+.firstcol{
+	margin-left: 60px;
+	margin-top: 135px;
+	margin-bottom: 140px;
+}
+.firstcol p{
+	color: white;
+	font-family:'PT Sans', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 16px;
+}
+
+.foo_p1{
+	padding-left: 100px;
+	padding-right: 80px;
+}
+
+.foo_p2{
+	padding-left: 50px;
+	/*padding-right: 100px;*/
+}
+
+.foo_p3{
+	padding-left: 45px;
+	/*padding-right: 100px;*/
+}
+.ff_p{
+	padding-right: 25px;
+	padding-left: 45px;
+}
+
+/*footermain part end

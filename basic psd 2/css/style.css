@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,span,div{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+}
+
+/*header part start*/
+
+header{
+	background-color:#e3e3e3 ;
+	
+}
+.title h4{
+	text-transform:uppercase ;
+	font-size:40px;
+	font-weight: 700;
+	padding: 20px 0;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	padding: 40px 20px;
+}
+.menu ul li a{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	transition: all linear .3s;
+}
+.menu ul li a:hover{
+	color:#66c7b1 ;
+	transition: all linear .3s;
+}
+/*header part end*/
+/*banner part css start*/
+#banner{
+	background: url(../images/MARBEL.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+.banner_content h4{
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	padding-top: 100px;
+}
+.banner_content h6{
+	text-align: center;
+	font-weight: 400;
+	font-size: 24px;
+	color: #a8a8a8;
+	padding-top:20px ;
+}
+/*.banner_content a{
+	padding: 10px 25px;
+	background-color:#3f8dbf ;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left:45% ;
+	margin-bottom:196px ;*/
+
+	
+/*}*/
+.banner_content button{
+	padding: 10px 25px;
+	background-color:#3f8dbf ;
+	border-radius: 3px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left:45% ;
+	margin-bottom:196px ;
+	margin-top:40px ;
+	border: none;
+	box-shadow:  2px #3f8dbf;	
+}
+
+/*banner part css end*/
+/*service part css start*/
+
+.ser_img{
+	height: 88px;
+	width: 91px;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #9d9abf;
+	margin: 60px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+
+}
+.ser_content h6{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	margin-right: 50px;
+	margin-bottom:15px;
+}
+.ser_content p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	margin-right: 25px;
+	margin-bottom: 60px;
+}
+.red{
+	background-color: #d2514b;
+}
+.blue{
+	background-color: #66a3c6;
+}
+.yellow{
+	background-color: #e8c04f;
+}
+
+/*service part css end*/
+
+/*work part start*/
+.heading h4{
+	margin-top: 60px;
+	margin-bottom: 28px;
+	font-size: 18px;
+	font-weight: 700;
+
+}
+.work_img h5{
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.work_img h6{
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 22px;
+	color: #d2d2d2;
+}
+.work_img p{
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 60px;
+	color: #8c8c8c;
+	line-height: 32px;
+}
+.work_middle{
+	/*margin-left: 8px;
+	margin-right: 8px;*/
+	padding-left: 6px;
+
+
+}
+.workmiddle3{
+	padding-left: 12px;
+}
+/*work part end*/
+/*quatation part start*/
+.quatation{
+	background-color: #efefef;
+}
+.qatnimg{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.qatationcont{
+	text-align: center;
+	margin-bottom: 65px;
+}
+.qatationcont p{
+color: #a1a1a1;
+font-weight: 400;	
+font-size: 20px;
+}
+
+/*quatation part end*/
+/*footer part start*/
+
+footer{
+	background-color: #1e1e1e;
+}
+
+.f_heading h4{
+	color: #5c5c5c;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 45px ;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.f_heading p{
+color: #868686;
+font-weight: 400;
+font-size: 14px;
+margin-bottom: 38px;
+}
+
+.f_icon a{
+	color: #a89574;
+	font-size: 18px;
+}
+.f_heading p{
+color: #cacaca;	
+}
+
+.f_add p{
+color: #cacaca;
+font-weight: 400;
+font-size: 13px;
+margin-left:18px ;
+margin-right: 50px;
+  /*letter-spacing: -1px;*/
+  line-height: normal;
+}
+
+.f_twitter,
+.f_posts,
+.twitter{
+	padding: 20px 0;
+}
+
+.f_about{
+	padding-top: 20px;
+}
+
+.ff{
+	padding-left: 14px;
+}
+
+.line2{
+	padding: 50px 0;
+}
+.copy p{
+ color: #cacaca;
+ padding-bottom: 50px;
+ font-size: 14px;
+ font-weight: 400;
+}
+/*footer part end*/
